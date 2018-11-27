@@ -25,5 +25,11 @@ docker-compose --version
 
 Continue with the [EdgeX tutorial](https://docs.edgexfoundry.org/Ch-WalkthroughRunning.html) 
 
-## Note:
-When sending HTTP requests use the IP address of your Up2 Board (10.42.0.xxx) NOT localhost. 
+## Notes:
+
+- When installing EdgeX use the following command get the .yml file: 
+```
+wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/compose-files/docker-compose.yml
+```
+
+- When sending HTTP requests use the IP address of your Up2 Board (10.42.0.xxx) NOT localhost. 
